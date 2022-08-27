@@ -1,0 +1,20 @@
+@import url(assets/css/header.css);
+
+@font-face {
+    font-family: 'icones';
+    src: url(assets/font/icones.ttf);
+}
+
+:root {
+    --Mcabecalho: #15191C;
+    --branco: #FFF;
+    --cor-secundaria: #95999C;
+}
+* {
+    color: var(--branco);
+}
+body {
+    background-color: #1D232A;
+    font-family: 'Open Sans', 'icones', sans-serif;
+    color: var(--branco);
+}
