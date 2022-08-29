@@ -1,4 +1,5 @@
 @import url(assets/css/header.css);
+@import url(assets/css/banner.css);
 
 @font-face {
     font-family: 'icones';
@@ -9,6 +10,8 @@
     --Mcabecalho: #15191C;
     --branco: #FFF;
     --cor-secundaria: #95999C;
+    --banner: #2C343A;
+    --botao: #0480DC;
 }
 * {
     color: var(--branco);

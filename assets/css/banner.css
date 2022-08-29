@@ -1,0 +1,68 @@
+main {
+    padding: 24px 16px;
+}
+h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: .8em;
+}
+.Mbanner {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--banner);
+}
+.Mtxt-banner {
+    padding: 16px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px;
+}
+.Mtexto-1 {
+    grid-column: span 2;
+}
+.Mtitulo-banner {
+    font-size: 18px;
+    font-weight: 700;
+    grid-column: span 2;
+}
+.Mbanner-texto {
+    font-size: 14px;
+    color: var(--cor-secundaria);  
+    grid-column: span 2; 
+}
+.Mbanner-txt {
+    display: flex;
+    align-items: center;
+    color: var(--cor-secundaria);
+}
+.Mbanner-temp::before {
+    content: "\e90c";
+    margin-right: 8px;
+}
+.Mbanner-visu::before {
+    content: "\e90f";
+    margin-right: 8px;
+}
+.Mbanner-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--botao);
+    height: 40px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.Mbanner-botao-play::before {
+    content: "\e90b";
+    font-size: 24px;
+    margin-right: 8px;
+}
+.Mbanner-botao-destaque {
+    grid-column: span 2;
+    width: 100%;
+}
+
+
+
+

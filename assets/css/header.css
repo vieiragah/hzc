@@ -20,12 +20,12 @@
     height: 100vh;
     background-color: var(--Mcabecalho);
     color: var(--cor-secundaria);
-    position: absolute;
-    left: -100vw;
+    left: 0;
     transition: .25s;
+    position: absolute;
 }
 .navegacao--ativo {
-    left: 0;
+    left: -100vw;
     transition: .25s;
 }
 .logotipo {
