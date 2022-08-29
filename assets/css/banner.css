@@ -1,10 +1,11 @@
 main {
     padding: 24px 16px;
+    display: grid;
+    gap: 16px;
 }
-h1 {
+.Mtitulo {
     font-size: 26px;
     font-weight: 700;
-    margin-bottom: .8em;
 }
 .Mbanner {
     width: 100%;
@@ -16,7 +17,7 @@ h1 {
     padding: 16px;
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 8px;
+    gap: 16px;
 }
 .Mtexto-1 {
     grid-column: span 2;
@@ -62,7 +63,22 @@ h1 {
     grid-column: span 2;
     width: 100%;
 }
-
-
+.Mbanner-botao-carrinho::before {
+    content: "\e901";
+}
+.Mbotaozinho {
+    background-color: var(--botao);
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    justify-self: end;
+    font-size: 24px;
+}
+.Mbotaozinho-carrinho::before {
+    content: "\e901";
+}
+.Mbotaozinho-play::before {
+    content: "\e90b";
+}
 
 
