@@ -13,6 +13,9 @@ main {
     overflow: hidden;
     background-color: var(--banner);
 }
+.Mbanner-destaque {
+    margin-bottom: 16px;
+}
 .Mtxt-banner {
     padding: 16px;
     display: grid;
@@ -80,5 +83,14 @@ main {
 .Mbotaozinho-play::before {
     content: "\e90b";
 }
-
+.mapa-picos {
+    height: 60vh;
+    background-image: url(../img/mapa-picos.png);
+    background-position: center;
+    background-size: cover;
+}
+.Mbotaozinho-picos::before {
+    content: "\e909";
+    font-size: 24px;
+}
 
