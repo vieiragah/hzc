@@ -93,4 +93,49 @@ main {
     content: "\e909";
     font-size: 24px;
 }
+.img-perfil {
+    width: 50px;
+}
+.Mbanner-final {
+    width: 92vw;
+    gap: 14px;
+}
+.Mimg-pico {
+    grid-column: span 2;
+}
+.Mtitulo-banner2 {
+    grid-column: span 2;
+    font-size: 18px;
+    font-weight: 700;
+}
+.autor {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.Mbiografia {
+    line-height: 32px;
+    grid-column: span 2;
+}
+.pico-maps {
+    height: 40vh;
+    background-image: url(../img/artigo_2.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.gridzin {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 40px;
+    row-gap: 18px;
+}
+.Mimg-skate {
+    margin-bottom: 1em;
+}
+.footerzinho {
+    font-size: 14px;
+    color: var(--cor-secundaria);
+    text-align: center;
+}
 
